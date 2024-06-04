@@ -1,0 +1,372 @@
+{
+	 "easycom": {
+	        // 下载安装的方式需要前面的"@/"，npm安装的方式无需"@/"
+	        // 下载安装方式
+	        "^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	        // npm安装方式
+	        // "^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	    },
+	
+	"pages": [
+		
+	{
+	    "path" : "pages/User/User",
+	    "style" :                                                                                    
+	    {
+	        "navigationBarTitleText": "",
+	        "enablePullDownRefresh": false,
+			"navigationStyle": "custom"  //导航栏自定义
+	    }
+	    
+	},	
+
+	{
+            "path" : "pages/Main/Main",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的主页",
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+            }
+            
+        },
+		
+		{
+            "path" : "pages/Laptop/Laptop",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的工作台",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/Query/Query",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "简单工具",
+                "enablePullDownRefresh": false
+			//	"navigationStyle": "custom"  //导航栏自定义
+            }
+            
+        },
+        {
+        	"path" : "pages/nav/nav",
+        	"style" : 
+        	{
+        		"navigationBarTitleText" : "nav-click",
+        		"enablePullDownRefresh" : false
+        	}
+        },
+        {
+        	"path" : "pages/production/dj-cj/dj-cj",
+        	"style" : 
+        	{
+        		"navigationBarTitleText" : "电机铁芯冲卷记录采集",
+        		"enablePullDownRefresh" : false
+        	}
+        },
+        {
+        	"path" : "pages/multi/multi",
+        	"style" : 
+        	{
+        		"navigationBarTitleText" : "",
+        		"enablePullDownRefresh" : false
+        	}
+        },
+        {
+        	"path" : "pages/primay/primay",
+        	"style" : 
+        	{
+        		"navigationBarTitleText" : "主页",
+        		"enablePullDownRefresh" : false
+        	}
+        },
+        {
+        	"path" : "pages/module/module",
+        	"style" : 
+        	{
+        		"navigationBarTitleText" : "电机生产过程质量数据采集",
+        		"enablePullDownRefresh" : false
+        	}
+        },
+        {
+        	"path" : "pages/selected/selected",
+        	"style" : 
+        	{
+        		"navigationBarTitleText" : "",
+        		"enablePullDownRefresh" : false
+        	}
+        },
+        {
+        	"path" : "pages/production/dj-hj/dj-hj",
+        	"style" : 
+        	{
+        		"navigationBarTitleText" : "电机铁芯焊接记录采集",
+        		"enablePullDownRefresh" : false
+        	}
+        },
+        {
+        	"path" : "pages/production/dj-xdz/dj-xdz",
+        	"style" : 
+        	{
+        		"navigationBarTitleText" : "电机线定子检测数据采集",
+        		"enablePullDownRefresh" : false
+        	}
+        },
+        {
+        	"path" : "pages/autoaddinput/autoaddinput",
+        	"style" : 
+        	{
+        		"navigationBarTitleText" : "autoaddinput",
+        		"enablePullDownRefresh" : false
+        	}
+        },
+        {
+        	"path" : "pages/input-test/input-test",
+        	"style" : 
+        	{
+        		"navigationBarTitleText" : "input-test",
+        		"enablePullDownRefresh" : false
+        	}
+        },
+        {
+        	"path" : "pages/san-outbord/san-outbord",
+        	"style" : 
+        	{
+        		"navigationBarTitleText" : "",
+        		"enablePullDownRefresh" : false
+        	}
+        },
+        {
+        	"path" : "pages/production/dj-dzgj/dj-dzgj",
+        	"style" : 
+        	{
+        		"navigationBarTitleText" : "电机灌胶验证数据采集",
+        		"enablePullDownRefresh" : false
+        	}
+        },
+        {
+        	"path" : "pages/production/dj-dzck/dj-dzck",
+        	"style" : 
+        	{
+        		"navigationBarTitleText" : "电机灌胶验证数据采集",
+        		"enablePullDownRefresh" : false
+        	}
+        },
+        {
+        	"path" : "pages/mylogin/mylogin",
+        	"style" : 
+        	{
+        		"navigationBarTitleText" : "我的主页信息",
+        		"enablePullDownRefresh" : false
+        	}
+        },
+        {
+        	"path" : "pages/logout/logout",
+        	"style" : 
+        	{
+        		"navigationBarTitleText" : "退出登陆",
+        		"enablePullDownRefresh" : false
+        	}
+        },
+        {
+        	"path" : "pages/personalconfig/personalconfig",
+        	"style" : 
+        	{
+        		"navigationBarTitleText" : "设置",
+        		"enablePullDownRefresh" : false
+        	}
+        },
+        {
+        	"path" : "pages/adviceget/adviceget",
+        	"style" : 
+        	{
+        		"navigationBarTitleText" : "意见反馈",
+        		"enablePullDownRefresh" : false
+        	}
+        },
+        {
+        	"path" : "pages/charts/charts",
+        	"style" : 
+        	{
+        		"navigationBarTitleText" : "运营分析",
+        		"enablePullDownRefresh" : false
+        	}
+        },
+		{
+			"path" : "pages/category/category",
+			"style" : 
+			{
+				"navigationBarTitleText" : "质量管理",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/license/license",
+			"style" : 
+			{
+				"navigationBarTitleText" : "许可信息",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/tools/tools",
+			"style" : 
+			{
+				"navigationBarTitleText" : "工具集",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/music/music",
+			"style" : 
+			{
+				"navigationBarTitleText" : "我的音乐",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/locations/locations",
+			"style" : 
+			{
+				"navigationBarTitleText" : "获取当前位置",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/wareHouse/wareHouse",
+			"style" : 
+			{
+				"navigationBarTitleText" : "仓储功能集",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/wareHouses/materialQuery/materialQuery",
+			"style" : 
+			{
+				"navigationBarTitleText" : "物料信息查询",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/test/test",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/test1/test1",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/wareHouses/materialDelivery/materialDelivery",
+			"style" : 
+			{
+				"navigationBarTitleText" : "物料扫码配送",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/wareHouses/materialBoard/materialBoard",
+			"style" : 
+			{
+				"navigationBarTitleText" : "仓储看板配送",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/wareHouses/materialTransfer/materialTransfer",
+			"style" : 
+			{
+				"navigationBarTitleText" : "仓储扫码转移",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/wareHouses/materialSend/materialSend",
+			"style" : 
+			{
+				"navigationBarTitleText" : "仓储扫码发货",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/wareHouses/materialOn/materialOn",
+			"style" : 
+			{
+				"navigationBarTitleText" : "物料扫码上架",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/wareHouses/materialQuery/material_Q_B",
+			"style" : 
+			{
+				"navigationBarTitleText" : "物料查询",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/wareHouses/logisticsSin/logisticsSin",
+			"style" : 
+			{
+				"navigationBarTitleText" : "物流签署",
+				"enablePullDownRefresh" : false
+			}
+		}
+	
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "uni-app",	
+	//	"navigationBarBackgroundColor": "#F8F8F8",
+		"navigationBarBackgroundColor": "#228b22",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	},
+	
+"tabBar": {
+	"color": "#7A7E83",
+	"selectedColor": "#3cc51f",
+	"borderStyle": "black",
+	"backgroundColor": "#efeff4",
+	
+	"list": [
+		{
+		"pagePath": "pages/Laptop/Laptop",
+		"iconPath": "static/tabbar/gzt1.png",
+		"selectedIconPath": "static/tabbar/gzt2.png",
+		"text": "工作台"
+	}, {
+		"pagePath": "pages/Main/Main",
+		"iconPath": "static/tabbar/M1.png",
+		"selectedIconPath": "static/tabbar/M2.png",
+		"text": "主页"
+	},
+	{
+		"pagePath": "pages/tools/tools",
+		"iconPath": "static/tabbar/q1.png",
+		"selectedIconPath": "static/tabbar/q2.png",
+		"text": "工具"
+	},
+	{
+		"pagePath": "pages/mylogin/mylogin",
+		"iconPath": "static/tabbar/u1.png",
+		"selectedIconPath": "static/tabbar/u2.png",
+		"text": "我的"
+	}
+	]
+},
+"onShow": "onAppShow"
+}
+
